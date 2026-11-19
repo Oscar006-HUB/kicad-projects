@@ -6,7 +6,7 @@ Schematics, PCB layouts and component libraries I designed in **[KiCad](https://
 
 | Project | Description | Key components |
 |---|---|---|
-| [`gas-detector-system`](projects/gas-detector-system) | Gas detection system with buzzer alarm, sensor connectors and a power unit sheet. Includes a **PCB layout**. | ESP32-C3 SuperMini, buzzer, sensor headers |
+| [`gas-detector-system`](projects/gas-detector-system) | **IoT gas detection system built under a mentorship programme.** The ESP32-C3 reads the gas sensors, sounds a buzzer alarm, and publishes readings over **MQTT** to a custom web dashboard for remote monitoring. Includes the schematic, a power unit sheet and the **PCB layout**. | ESP32-C3 SuperMini, gas sensors, buzzer, MQTT |
 | [`project-c-10`](projects/project-c-10) | Climate-controlled relay switch: reads temperature and humidity and switches a load | ESP32-C3-DevKitM-1, DHT22, relay |
 | [`food`](projects/food) | Fan control circuit for a food preservation/drying unit, driven through a transistor-switched relay | ESP32-C3-DevKitM-1, S8050 BJT, relay, 1N4007, fan |
 | [`lab1-sensor-report`](projects/lab1-sensor-report) | EE lab 1: multi-sensor circuit, with diagram and code screenshots for the report | ESP32-C3, DHT11, HC-SR04, LM2903 comparator |
